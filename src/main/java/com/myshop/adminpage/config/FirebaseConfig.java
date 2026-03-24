@@ -28,7 +28,7 @@ public class FirebaseConfig {
     public void initFirebase() throws IOException {
         // Sử dụng ClassLoader để load tệp JSON từ classpath
         InputStream serviceAccount = getClass().getClassLoader()
-                .getResourceAsStream("myshop-ebeb4-firebase-adminsdk-boj7s-3edc0e863b.json");
+                .getResourceAsStream("");
 
         FirebaseOptions options = new FirebaseOptions.Builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
