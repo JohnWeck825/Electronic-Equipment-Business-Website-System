@@ -32,7 +32,7 @@ public class FirebaseConfig {
 
         FirebaseOptions options = new FirebaseOptions.Builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-                .setStorageBucket("myshop-ebeb4.appspot.com")
+                .setStorageBucket("")
                 .build();
 
         // Kiểm tra xem FirebaseApp đã được khởi tạo chưa
